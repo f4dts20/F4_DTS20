@@ -26,6 +26,8 @@ header {
     z-index: 10;
 }
 
+
+
 .headerAtas {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -189,3 +191,220 @@ a {
   .btn:hover {
     opacity: 1;
   }
+
+
+
+/*FOOTER*/
+.all-footer{
+	background: black;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.all-footer .footer-left,
+.all-footer .footer-center,
+.all-footer .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+.all-footer .footer-left{
+	width: 40%;
+}
+
+/* Team Name */
+.all-footer h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+/* F4 Progate Entrance */
+.team-name {
+	-webkit-animation: team-name 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: team-name 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+.all-footer h3 span{
+	color:  red;
+  font-weight: bold;
+}
+
+/* Footer links */
+.all-footer .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.all-footer .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.all-footer .footer-copyright{
+	color:  gray;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer links Hover */
+.linknya:hover {
+	-webkit-animation: linknya 0.3s linear infinite both;
+	        animation: linknya 0.3s linear infinite both;
+}
+
+/* Footer Center */
+.all-footer .footer-center{
+	width: 35%;
+}
+
+.all-footer .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.all-footer .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.all-footer .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.all-footer .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.all-footer .footer-center p a{
+	color:  lightskyblue;
+	text-decoration: none;
+}
+
+/* Footer Right */
+.all-footer .footer-right{
+	width: 20%;
+}
+
+.all-footer .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.all-footer .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.all-footer .footer-icons{
+	margin-top: 25px;
+}
+
+.all-footer .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.hover-goyang{
+  float:left;
+  margin-right:7px;
+}
+
+.all-footer .footer-icons a:hover{
+  background-color: black;
+  color: red;
+}
+
+@media (max-width: 880px) {
+
+	.all-footer{
+		font: bold 14px sans-serif;
+	}
+
+	.all-footer .footer-left,
+	.all-footer .footer-center,
+	.all-footer .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.all-footer .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+/* Gaya Masuk Logo Facebook */
+.gaya-masuk-facebook {
+	-webkit-animation: gaya-masuk-facebook 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: gaya-masuk-facebook 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* Gaya Masuk Logo Twitter*/
+.gaya-masuk-twitter {
+	-webkit-animation: gaya-masuk-twitter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: gaya-masuk-twitter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* Gaya Masuk Logo instagram*/
+.gaya-masuk-instagram {
+	-webkit-animation: gaya-masuk-instagram 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: gaya-masuk-instagram 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* Gaya Masuk Logo Youtube */
+.gaya-masuk-youtube {
+	-webkit-animation: gaya-masuk-youtube 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: gaya-masuk-youtube 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* Tombol Social Media Hover */
+.hover-goyang:hover {
+	-webkit-animation: hover-goyang 0.5s ease-in-out infinite both;
+	        animation: hover-goyang 0.5s ease-in-out infinite both;
+}
