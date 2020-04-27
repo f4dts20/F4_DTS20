@@ -3,230 +3,236 @@
 }
 
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
+	margin: 0;
 }
 
 .container {
-    width: 100%;
+	width: 100%;
 	padding: 0 15px;
 	margin: 0 auto;
 }
 
 header {
-    width: 100%;
-    background-color: rgba(64, 54, 48, 0.8);
-    position: fixed;
-    top: 0;
-    z-index: 10;
+	width: 100%;
+	background-color: rgba(64, 54, 48, 0.8);
+	position: fixed;
+	top: 0;
+	z-index: 10;
 }
 
 
 
 .headerAtas {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    display: block;
-    border-radius: 6px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	display: block;
+	border-radius: 6px;
 }
 
 .headerAtas a {
-    color: rgb(184, 115, 51);
-    background-color: rgba(85, 64, 49, 0.2);
-    padding-top: 20px;
-    padding-bottom: 21px;
-    font-size: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-decoration: none;
+	color: rgb(184, 115, 51);
+	background-color: rgba(85, 64, 49, 0.2);
+	padding-top: 20px;
+	padding-bottom: 21px;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
 }
 
 .home {
-    background: linear-gradient(to right, #A8BAA9, #FFF5CF, #DBCDAD, #B39C7D, #806854);
-    background-size: 200% 200%;
-    animation: rainbow 2s ease-in-out infinite;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: rgba(0, 0, 0, 1);
-    transition: color .2s ease-in-out;
+	background: linear-gradient(to right, #A8BAA9, #FFF5CF, #DBCDAD, #B39C7D, #806854);
+	background-size: 200% 200%;
+	animation: rainbow 2s ease-in-out infinite;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: rgba(0, 0, 0, 1);
+	transition: color .2s ease-in-out;
 
 }
 
 .instagram {
-    background: linear-gradient(to right, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
-    background-size: 200% 200%;
-    animation: rainbow 2s ease-in-out infinite;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: rgba(0, 0, 0, 1);
-    transition: color .2s ease-in-out;
+	background: linear-gradient(to right, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+	background-size: 200% 200%;
+	animation: rainbow 2s ease-in-out infinite;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: rgba(0, 0, 0, 1);
+	transition: color .2s ease-in-out;
 }
 
 .profile {
-    background: linear-gradient(to right, #eacda3, #d6ae7b, #7B3E00);
-    background-size: 200% 200%;
-    animation: rainbow 2s ease-in-out infinite;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: rgba(0, 0, 0, 1);
-    transition: color .2s ease-in-out;
+	background: linear-gradient(to right, #eacda3, #d6ae7b, #7B3E00);
+	background-size: 200% 200%;
+	animation: rainbow 2s ease-in-out infinite;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: rgba(0, 0, 0, 1);
+	transition: color .2s ease-in-out;
 }
 
 .home:hover {
-    color: rgba(0, 0, 0, 0);
+	color: rgba(0, 0, 0, 0);
 }
 
 .instagram:hover {
-    color: rgba(0, 0, 0, 0);
+	color: rgba(0, 0, 0, 0);
 }
 
 .profile:hover {
-    color: rgba(0, 0, 0, 0);
+	color: rgba(0, 0, 0, 0);
 }
 
 @keyframes rainbow {
-    0% {
-        background-position: left
-    }
+	0% {
+		background-position: left
+	}
 
-    25% {
-        background-position: center
-    }
+	25% {
+		background-position: center
+	}
 
-    50% {
-        background-position: right
-    }
+	50% {
+		background-position: right
+	}
 
-    75% {
-        background-position: center
-    }
+	75% {
+		background-position: center
+	}
 
-    100% {
-        background-position: left
-    }
+	100% {
+		background-position: left
+	}
 }
 
 .isiUtama {
-    text-align: center;
-    color: rgb(255, 222, 173);
-    background-image: url(https://cdn.pixabay.com/photo/2016/11/18/16/57/apple-1835803_960_720.jpg);
-    background-size: cover;
-    padding-top: 70px;
-    padding-bottom: 75px;
-    height: 600px;
+	text-align: center;
+	color: rgb(255, 222, 173);
+	background-image: url(https://cdn.pixabay.com/photo/2016/11/18/16/57/apple-1835803_960_720.jpg);
+	background-size: cover;
+	padding-top: 70px;
+	padding-bottom: 75px;
+	height: 600px;
 }
 
 .isiUtama h1 {
-    font-size: 40px;
-    letter-spacing: 8px;
-    margin-bottom: -10px;
-    opacity: 0.7;
+	font-size: 40px;
+	letter-spacing: 8px;
+	margin-bottom: -10px;
+	opacity: 0.7;
 }
 
 .isiUtama h2 {
-    font-size: 25px;
-    letter-spacing: 7px;
-    opacity: 0.7;
+	font-size: 25px;
+	letter-spacing: 7px;
+	opacity: 0.7;
 }
 
 .isiUtama p {
-    padding-top: 50px;
-    font-size: 20px;
-    opacity: 0.9;
+	padding-top: 50px;
+	font-size: 20px;
+	opacity: 0.9;
 }
 
 /*Entrance Welcome To*/
 .big-welcome {
 	-webkit-animation: big-welcome 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: big-welcome 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: big-welcome 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 img {
-    width: 150px;
-    height: 150px;
+	width: 150px;
+	height: 150px;
 }
 
 /*Entrance foto Ardi*/
 .img-ardi {
 	-webkit-animation: img-ardi 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: img-ardi 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: img-ardi 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /*Entrance foto Septian*/
 .img-septian {
 	-webkit-animation: img-septian 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: img-septian 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: img-septian 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
 /*Entrance foto Surur*/
 .img-surur {
 	-webkit-animation: img-surur 4s both;
-	        animation: img-surur 4s both;
+	animation: img-surur 4s both;
 }
+
 /*Entrance foto dio*/
 .img-dio {
 	-webkit-animation: img-dio 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: img-dio 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: img-dio 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
 /*Entrance foto upik*/
 .img-upik {
 	-webkit-animation: img-upik 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: img-upik 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: img-upik 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .heading {
-    padding-top: 50px;
-    padding-bottom: 40px;
+	padding-top: 50px;
+	padding-bottom: 40px;
 }
 
 .heading h1 {
-    letter-spacing: 7px;
-    opacity: 0.7;
+	letter-spacing: 7px;
+	opacity: 0.7;
 }
 
 .profilAnggota {
-    height: 430px;
-    background-color: #FFEFD5; 
-    padding-bottom: 500px;
+	height: auto;
+	background-color: #FFEFD5;
+	padding-bottom: 700px;
 	text-align: center;
-	position: relative
+	width: 100%;
 }
 
 .profiles {
-    float: left;
-	width: 20%;
+	float: left;
+	width: 100%;
 	padding-left: 15px;
 	padding-right: 15px;
-	position: relative;
+	display: block;
+	padding-top: 30px;
+	margin-bottom: 60px;
 }
 
 a {
-    text-decoration: none;
-  }
+	text-decoration: none;
+}
 
 .ig {
-    background-color: #A0522D; /*gue bingung kasih warna apa*/
+	background-color: #A0522D;
+	/*gue bingung kasih warna apa*/
 }
 
 .btn {
-    padding: 12px 24px;
-    color: white;
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
-  }
-  
-  .btn:hover {
-    opacity: 1;
-  }
+	padding: 12px 24px;
+	color: white;
+	display: inline-block;
+	opacity: 0.8;
+	border-radius: 4px;
+}
+
+.btn:hover {
+	opacity: 1;
+}
 
 
 
 /*FOOTER*/
-footer{
+footer {
 	background: #A0522D;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
@@ -238,19 +244,19 @@ footer{
 
 footer .footer-left,
 footer .footer-center,
-footer .footer-right{
+footer .footer-right {
 	display: inline-block;
 	vertical-align: top;
 }
 
 /* Footer left */
-footer .footer-left{
+footer .footer-left {
 	width: 40%;
 }
 
 /* Team Name */
-footer h3{
-	color:  #ffffff;
+footer h3 {
+	color: #ffffff;
 	font: normal 36px 'Open Sans', cursive;
 	margin: 0;
 }
@@ -258,31 +264,31 @@ footer h3{
 /* F4 Progate Entrance */
 .team-name {
 	-webkit-animation: team-name 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	        animation: team-name 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation: team-name 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
-footer h3 span{
-	color:  red;
-  font-weight: bold;
+footer h3 span {
+	color: red;
+	font-weight: bold;
 }
 
 /* Footer links */
-footer .footer-links{
-	color:  #ffffff;
+footer .footer-links {
+	color: #ffffff;
 	margin: 20px 0 12px;
 	padding: 0;
 }
 
-footer .footer-links a{
-	display:inline-block;
+footer .footer-links a {
+	display: inline-block;
 	line-height: 1.8;
-  font-weight:400;
+	font-weight: 400;
 	text-decoration: none;
-	color:  inherit;
+	color: inherit;
 }
 
-footer .footer-copyright{
-	color:  gray;
+footer .footer-copyright {
+	color: gray;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
@@ -291,16 +297,16 @@ footer .footer-copyright{
 /* Footer links Hover */
 .linknya:hover {
 	-webkit-animation: linknya 0.3s linear infinite both;
-	        animation: linknya 0.3s linear infinite both;
+	animation: linknya 0.3s linear infinite both;
 }
 
 /* Footer Center */
-footer .footer-center{
+footer .footer-center {
 	width: 35%;
 }
 
-footer .footer-center i{
-	background-color:  #33383b;
+footer .footer-center i {
+	background-color: #33383b;
 	color: #ffffff;
 	font-size: 25px;
 	width: 38px;
@@ -312,63 +318,63 @@ footer .footer-center i{
 	vertical-align: middle;
 }
 
-footer .footer-center i.fa-envelope{
+footer .footer-center i.fa-envelope {
 	font-size: 17px;
 	line-height: 38px;
 }
 
-footer .footer-center p{
+footer .footer-center p {
 	display: inline-block;
 	color: #ffffff;
-  	font-weight:400;
+	font-weight: 400;
 	vertical-align: middle;
-	margin:0;
+	margin: 0;
 }
 
-footer .footer-center p span{
-	display:block;
+footer .footer-center p span {
+	display: block;
 	font-weight: normal;
-	font-size:14px;
-	line-height:2;
+	font-size: 14px;
+	line-height: 2;
 }
 
-footer .footer-center p a{
-	color:  lightskyblue;
+footer .footer-center p a {
+	color: lightskyblue;
 	text-decoration: none;
 }
 
 /* Footer Right */
-footer .footer-right{
+footer .footer-right {
 	width: 20%;
 	text-align: justify;
 }
 
-footer .footer-company-about{
+footer .footer-company-about {
 	line-height: 20px;
-	color:  #92999f;
+	color: #92999f;
 	font-size: 13px;
 	font-weight: normal;
 	margin: 0;
 }
 
-footer .footer-company-about span{
+footer .footer-company-about span {
 	display: block;
-	color:  #ffffff;
+	color: #ffffff;
 	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
 
-footer .footer-icons{
+footer .footer-icons {
 	margin-top: 25px;
 }
 
-footer .footer-icons a{
+footer .footer-icons a {
 	display: inline-block;
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #33383b;
+	background-color: #33383b;
 	border-radius: 2px;
 
 	font-size: 20px;
@@ -380,118 +386,108 @@ footer .footer-icons a{
 	margin-bottom: 5px;
 }
 
-.hover-goyang{
-  float:left;
-  margin-right:7px;
+.hover-goyang {
+	float: left;
+	margin-right: 7px;
 }
 
-footer .footer-icons a:hover{
-  background-color: black;
-  color: red;
+footer .footer-icons a:hover {
+	background-color: black;
+	color: red;
 }
 
-@media (max-width: 880px) {
 
-	footer{
-		font: bold 14px sans-serif;
-	}
-
-	footer .footer-left,
-	footer .footer-center,
-	footer .footer-right{
-		display: block;
-		width: 100%;
-		margin-bottom: 40px;
-		text-align: center;
-	}
-
-	footer .footer-center i{
-		margin-left: 0;
-	}
-
-}
 
 /* Gaya Masuk Logo Facebook */
 .gaya-masuk-facebook {
 	-webkit-animation: gaya-masuk-facebook 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: gaya-masuk-facebook 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: gaya-masuk-facebook 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /* Gaya Masuk Logo Twitter*/
 .gaya-masuk-twitter {
 	-webkit-animation: gaya-masuk-twitter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: gaya-masuk-twitter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: gaya-masuk-twitter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /* Gaya Masuk Logo instagram*/
 .gaya-masuk-instagram {
 	-webkit-animation: gaya-masuk-instagram 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: gaya-masuk-instagram 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: gaya-masuk-instagram 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /* Gaya Masuk Logo Youtube */
 .gaya-masuk-youtube {
 	-webkit-animation: gaya-masuk-youtube 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: gaya-masuk-youtube 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: gaya-masuk-youtube 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /* Tombol Social Media Hover */
 .hover-goyang:hover {
 	-webkit-animation: hover-goyang 0.5s ease-in-out infinite both;
-	        animation: hover-goyang 0.5s ease-in-out infinite both;
+	animation: hover-goyang 0.5s ease-in-out infinite both;
 }
 
 /*Extra 2*/
 
 .biodata {
-    height: 50px;
-    background-color: #FFEFD5; 
-	padding-bottom: 610px;
+	height: auto;
+	background-color: #FFEFD5;
+	padding-bottom: 10px;
 	padding-top: 20px;
 	text-align: center;
 	font-size: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
+
 .biodata h6 {
 	letter-spacing: 7px;
-    opacity: 0.7;
+	opacity: 0.7;
 }
+
 .kotakprofil {
-    float: left;
-    width: 31%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 100%;
 	/*display: inline-block;*/
-	flex:auto;
-    opacity: 0.8;
-	margin:11px;
-	padding-left:5px;
-	padding-right:5px;
+	opacity: 0.8;
+	padding-left: 5px;
+	padding-right: 5px;
 	border-radius: 4px;
 	-moz-box-shadow: 0 0 5px #888;
 	-webkit-box-shadow: 0 0 5px#888;
 	box-shadow: 0 0 5px #888;
-	height:150px;
+	height: 160px;
 }
-.biodata .container .txt-contents .ip {
+
+.biodata .ip {
 	text-align: center;
 	font-weight: bold;
 }
+
 .txt-contents {
-  width: 100%;
-  display: inline-block;
-  font-size: 10px;
-  color: #b3aeb5;
-  
+	width: 100%;
+	display: inline-block;
+	font-size: 10px;
+	color: #b3aeb5;
+	text-align: center;
+
 }
+
 .putih {
-    background-color: white;
+	background-color: white;
 }
-.kotakprofil p{
-	color:  black;
+
+.kotakprofil p {
+	color: black;
 }
-.kotakprofil span{
-	display:block;
+
+.kotakprofil span {
+	display: block;
 	font-weight: normal;
-	font-size:15px;
-	line-height:1.5;
-	text-align:left;
+	font-size: 15px;
+	line-height: 1.5;
+	text-align: left;
 	padding-left: 10px;
 }
