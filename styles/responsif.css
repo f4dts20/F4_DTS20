@@ -7,25 +7,21 @@
     }
 }
 
-@media (max-width: 670px) {
+@media (max-width: 880px) {
 
+	.all-footer{
+		font: bold 14px sans-serif;
+	}
 
-    footer {
-        font: bold 14px sans-serif;
-    }
+	.all-footer .footer-left,
+	.all-footer .footer-center,
+	.all-footer .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
 
-    footer .footer-left,
-    footer .footer-center,
-    footer .footer-right {
-        display: block;
-        width: 100%;
-        margin-bottom: 40px;
-        text-align: center;
-        overflow: auto;
-    }
-
-    footer .footer-center i {
-        margin-left: 0;
-    }
-
-}
+	.all-footer .footer-center i{
+		margin-left: 0;
+	}
