@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html {
@@ -11,11 +11,9 @@ body {
 }
 
 .container {
-    width: 1170px; /*ada yang kutambahin*/
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
 }
 
 header {
@@ -119,7 +117,7 @@ header {
     background-size: cover;
     padding-top: 70px;
     padding-bottom: 75px;
-    height: 500px;
+    height: 600px;
 }
 
 .isiUtama h1 {
@@ -192,17 +190,17 @@ img {
 .profilAnggota {
     height: 430px;
     background-color: #FFEFD5; 
-    padding-bottom: 10px;
-    text-align: center;
+    padding-bottom: 500px;
+	text-align: center;
+	position: relative
 }
 
 .profiles {
     float: left;
-    width: 20%;
-}
-
-.text {
-    /*kayaknya ini gak guna*/
+	width: 20%;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
 }
 
 a {
@@ -228,30 +226,30 @@ a {
 
 
 /*FOOTER*/
-.all-footer{
+footer{
 	background: #A0522D;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-	padding: 55px 50px;
+	padding: 30px 0px 10px 30px;
 }
 
-.all-footer .footer-left,
-.all-footer .footer-center,
-.all-footer .footer-right{
+footer .footer-left,
+footer .footer-center,
+footer .footer-right{
 	display: inline-block;
 	vertical-align: top;
 }
 
 /* Footer left */
-.all-footer .footer-left{
+footer .footer-left{
 	width: 40%;
 }
 
 /* Team Name */
-.all-footer h3{
+footer h3{
 	color:  #ffffff;
 	font: normal 36px 'Open Sans', cursive;
 	margin: 0;
@@ -263,19 +261,19 @@ a {
 	        animation: team-name 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
-.all-footer h3 span{
+footer h3 span{
 	color:  red;
   font-weight: bold;
 }
 
 /* Footer links */
-.all-footer .footer-links{
+footer .footer-links{
 	color:  #ffffff;
 	margin: 20px 0 12px;
 	padding: 0;
 }
 
-.all-footer .footer-links a{
+footer .footer-links a{
 	display:inline-block;
 	line-height: 1.8;
   font-weight:400;
@@ -283,7 +281,7 @@ a {
 	color:  inherit;
 }
 
-.all-footer .footer-copyright{
+footer .footer-copyright{
 	color:  gray;
 	font-size: 14px;
 	font-weight: normal;
@@ -297,11 +295,11 @@ a {
 }
 
 /* Footer Center */
-.all-footer .footer-center{
+footer .footer-center{
 	width: 35%;
 }
 
-.all-footer .footer-center i{
+footer .footer-center i{
 	background-color:  #33383b;
 	color: #ffffff;
 	font-size: 25px;
@@ -314,37 +312,38 @@ a {
 	vertical-align: middle;
 }
 
-.all-footer .footer-center i.fa-envelope{
+footer .footer-center i.fa-envelope{
 	font-size: 17px;
 	line-height: 38px;
 }
 
-.all-footer .footer-center p{
+footer .footer-center p{
 	display: inline-block;
 	color: #ffffff;
-  font-weight:400;
+  	font-weight:400;
 	vertical-align: middle;
 	margin:0;
 }
 
-.all-footer .footer-center p span{
+footer .footer-center p span{
 	display:block;
 	font-weight: normal;
 	font-size:14px;
 	line-height:2;
 }
 
-.all-footer .footer-center p a{
+footer .footer-center p a{
 	color:  lightskyblue;
 	text-decoration: none;
 }
 
 /* Footer Right */
-.all-footer .footer-right{
+footer .footer-right{
 	width: 20%;
+	text-align: justify;
 }
 
-.all-footer .footer-company-about{
+footer .footer-company-about{
 	line-height: 20px;
 	color:  #92999f;
 	font-size: 13px;
@@ -352,7 +351,7 @@ a {
 	margin: 0;
 }
 
-.all-footer .footer-company-about span{
+footer .footer-company-about span{
 	display: block;
 	color:  #ffffff;
 	font-size: 14px;
@@ -360,11 +359,11 @@ a {
 	margin-bottom: 20px;
 }
 
-.all-footer .footer-icons{
+footer .footer-icons{
 	margin-top: 25px;
 }
 
-.all-footer .footer-icons a{
+footer .footer-icons a{
 	display: inline-block;
 	width: 35px;
 	height: 35px;
@@ -386,27 +385,27 @@ a {
   margin-right:7px;
 }
 
-.all-footer .footer-icons a:hover{
+footer .footer-icons a:hover{
   background-color: black;
   color: red;
 }
 
 @media (max-width: 880px) {
 
-	.all-footer{
+	footer{
 		font: bold 14px sans-serif;
 	}
 
-	.all-footer .footer-left,
-	.all-footer .footer-center,
-	.all-footer .footer-right{
+	footer .footer-left,
+	footer .footer-center,
+	footer .footer-right{
 		display: block;
 		width: 100%;
 		margin-bottom: 40px;
 		text-align: center;
 	}
 
-	.all-footer .footer-center i{
+	footer .footer-center i{
 		margin-left: 0;
 	}
 
@@ -447,12 +446,18 @@ a {
 .biodata {
     height: 50px;
     background-color: #FFEFD5; 
-    padding-bottom: 200px;
-    text-align: center;
+	padding-bottom: 610px;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 50px;
+}
+.biodata h6 {
+	letter-spacing: 7px;
+    opacity: 0.7;
 }
 .kotakprofil {
     float: left;
-    width: 18%;
+    width: 31%;
 	/*display: inline-block;*/
 	flex:auto;
     opacity: 0.8;
@@ -465,10 +470,14 @@ a {
 	box-shadow: 0 0 5px #888;
 	height:150px;
 }
+.biodata .container .txt-contents .ip {
+	text-align: center;
+	font-weight: bold;
+}
 .txt-contents {
-  width: 80%;
+  width: 100%;
   display: inline-block;
-  font-size: 13px;
+  font-size: 10px;
   color: #b3aeb5;
   
 }
@@ -481,7 +490,8 @@ a {
 .kotakprofil span{
 	display:block;
 	font-weight: normal;
-	font-size:12px;
+	font-size:15px;
 	line-height:1.5;
-	text-align:justify;
+	text-align:left;
+	padding-left: 10px;
 }
