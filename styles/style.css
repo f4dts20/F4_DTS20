@@ -146,6 +146,33 @@ img {
     height: 150px;
 }
 
+/*Entrance foto Ardi*/
+.img-ardi {
+	-webkit-animation: img-ardi 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: img-ardi 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/*Entrance foto Septian*/
+.img-septian {
+	-webkit-animation: img-septian 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: img-septian 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+/*Entrance foto Surur*/
+.img-surur {
+	-webkit-animation: img-surur 4s both;
+	        animation: img-surur 4s both;
+}
+/*Entrance foto dio*/
+.img-dio {
+	-webkit-animation: img-dio 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: img-dio 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+/*Entrance foto upik*/
+.img-upik {
+	-webkit-animation: img-upik 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: img-upik 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
 .heading {
     padding-top: 50px;
     padding-bottom: 40px;
